@@ -1,0 +1,13 @@
+#+TITLE: EParsec 🎲
+A monadic parser combinator library in Emacs Lisp (because it is fun)
+
+* What is a monadic parser combinator?
+Imagine tiny functions specialized on parsing a specific string subset that can get combined to create even bigger parsers, while handling errors and the stream consumption.
+
+For further details on how to implement them, check [[https://www.cs.nott.ac.uk/~pszgmh/monparsing.pdf][this paper]].
+
+* Why in Emacs Lisp?
+Cause it's a fun exercise.
+
+* Damn the code looks urgh...
+Yeah I know. You can change it if you want.
